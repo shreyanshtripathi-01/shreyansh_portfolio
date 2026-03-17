@@ -1,0 +1,27 @@
+import Navbar from "@/components/portfolio/Navbar";
+import HeroSection from "@/components/portfolio/HeroSection";
+import AboutSection from "@/components/portfolio/AboutSection";
+import ProjectsSection from "@/components/portfolio/ProjectsSection";
+import SkillsSection from "@/components/portfolio/SkillsSection";
+import BlogSection from "@/components/portfolio/BlogSection";
+import ResumeSection from "@/components/portfolio/ResumeSection";
+import ContactSection from "@/components/portfolio/ContactSection";
+import Footer from "@/components/portfolio/Footer";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
+      <SkillsSection />
+      <BlogSection />
+      <ResumeSection />
+      <ContactSection />
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;
